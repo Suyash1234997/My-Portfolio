@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyash Kulshresth | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. Header / Navigation Section -->
+    <header class="navbar">
+        <div class="logo">Suyash.dev</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. Hero / Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Suyash Kulshresth</span></h1>
+                <p class="role-title">Aspiring Frontend Web Developer</p>
+                <p class="hero-desc">
+                    Passionate about building responsive, accessible, and clean web interfaces using modern HTML5 and
+                    CSS3.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. About Me Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <p>
+                    I am an enthusiastic web development student with a strong foundation in computer science and modern
+                    front-end technologies. My goal is to craft user-centric digital experiences that are clean,
+                    performant, and accessible across all devices.
+                </p>
+                <div class="about-details">
+                    <div class="detail-box">
+                        <h3>Education</h3>
+                        <p>Bachelor of Technology in Computer Science (Ongoing)</p>
+                    </div>
+                    <div class="detail-box">
+                        <h3>Career Interests</h3>
+                        <p>Frontend Engineering, Responsive UI/UX Design, and Web Accessibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Skills Section -->
+        <section id="skills" class="section bg-light">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5 Semantic Structure</div>
+                <div class="skill-card">CSS3 Styling & Variables</div>
+                <div class="skill-card">Flexbox & CSS Grid</div>
+                <div class="skill-card">Responsive Web Design</div>
+                <div class="skill-card">Git & GitHub</div>
+                <div class="skill-card">Cross-Browser Testing</div>
+            </div>
+        </section>
+
+        <!-- 5. Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-body">
+                        <h3 class="project-title">Student Dashboard Interface</h3>
+                        <p class="project-desc">
+                            A responsive multi-column layout showcasing course progress, schedule timelines, and
+                            academic metrics using CSS Grid and Flexbox.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS Grid</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 1: QR Code Generator -->
+                <article class="project-card">
+                    <div class="project-body">
+                        <h3 class="project-title">QR Code Generator</h3>
+                        <p class="project-desc">
+                            A web-based tool developed using HTML, CSS, and JavaScript that converts text and URLs into
+                            scannable QR codes with instant generation and download features. Designed with a clean,
+                            responsive, and user-friendly interface.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 6. Contact Section -->
+                <section id="contact" class="section bg-light">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="contact-container">
+                        <p class="contact-intro">Feel free to reach out for collaborations or project discussions:</p>
+
+                        <div class="contact-links">
+                            <p><strong>Email:</strong> <a
+                                    href="suyashkulshrestha9@gmail.com">suyash.kulshresth@example.com</a></p>
+                            <p><strong>GitHub:</strong> <a href="https://github.com/Suyash1234997" target="_blank"
+                                    rel="noopener">github.com/suyash-kulshresth</a></p>
+                            <p><strong>LinkedIn:</strong> <a
+                                    href="https://www.linkedin.com/in/suyash-kulshresth-3b8154392/" target="_blank"
+                                    rel="noopener">linkedin.com/in/suyash-kulshresth</a></p>
+                        </div>
+
+                        <!-- Visual Demo Contact Form -->
+                        <form class="demo-form" action="#" onsubmit="return false;">
+                            <p class="demo-note"><em>(Visual demo form - no data transmission)</em></p>
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" placeholder="Your message here..."></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+    </main>
+
+    <!-- 7. Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2026 Suyash Kulshresth. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
